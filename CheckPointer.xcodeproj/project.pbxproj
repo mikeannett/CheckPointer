@@ -10,10 +10,14 @@
 		276DEA8A24EED1800057BF76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276DEA8924EED1800057BF76 /* AppDelegate.swift */; };
 		276DEA8C24EED1800057BF76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276DEA8B24EED1800057BF76 /* ViewController.swift */; };
 		276DEA8F24EED1800057BF76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276DEA8D24EED1800057BF76 /* Main.storyboard */; };
-		276DEA9124EED1980057BF76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276DEA9024EED1980057BF76 /* Assets.xcassets */; };
 		276DEA9424EED1980057BF76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276DEA9224EED1980057BF76 /* LaunchScreen.storyboard */; };
 		276DEA9F24EED1980057BF76 /* CheckPointerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276DEA9E24EED1980057BF76 /* CheckPointerTests.swift */; };
 		276DEAAA24EED1980057BF76 /* CheckPointerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276DEAA924EED1980057BF76 /* CheckPointerUITests.swift */; };
+		276DEAB824EEDF930057BF76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276DEAB724EEDF930057BF76 /* Assets.xcassets */; };
+		276DEABA24EEE09B0057BF76 /* UserDefauts+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276DEAB924EEE09B0057BF76 /* UserDefauts+Extensions.swift */; };
+		276DEABC24EEE1450057BF76 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276DEABB24EEE1450057BF76 /* LocationDelegate.swift */; };
+		276DEABE24EEE1A90057BF76 /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276DEABD24EEE1A90057BF76 /* CLLocation+Extension.swift */; };
+		276DEAC024EEE3B90057BF76 /* Routes+Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276DEABF24EEE3B90057BF76 /* Routes+Points.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		276DEA8924EED1800057BF76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		276DEA8B24EED1800057BF76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		276DEA8E24EED1800057BF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		276DEA9024EED1980057BF76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		276DEA9324EED1980057BF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		276DEA9524EED1980057BF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		276DEA9A24EED1980057BF76 /* CheckPointerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckPointerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +50,11 @@
 		276DEAA524EED1980057BF76 /* CheckPointerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckPointerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		276DEAA924EED1980057BF76 /* CheckPointerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPointerUITests.swift; sourceTree = "<group>"; };
 		276DEAAB24EED1980057BF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276DEAB724EEDF930057BF76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Compass/compass/Assets.xcassets; sourceTree = "<group>"; };
+		276DEAB924EEE09B0057BF76 /* UserDefauts+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefauts+Extensions.swift"; sourceTree = "<group>"; };
+		276DEABB24EEE1450057BF76 /* LocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
+		276DEABD24EEE1A90057BF76 /* CLLocation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		276DEABF24EEE3B90057BF76 /* Routes+Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Routes+Points.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				276DEA8924EED1800057BF76 /* AppDelegate.swift */,
 				276DEA8B24EED1800057BF76 /* ViewController.swift */,
+				276DEAB924EEE09B0057BF76 /* UserDefauts+Extensions.swift */,
+				276DEABB24EEE1450057BF76 /* LocationDelegate.swift */,
+				276DEABD24EEE1A90057BF76 /* CLLocation+Extension.swift */,
 				276DEA8D24EED1800057BF76 /* Main.storyboard */,
-				276DEA9024EED1980057BF76 /* Assets.xcassets */,
+				276DEAB724EEDF930057BF76 /* Assets.xcassets */,
 				276DEA9224EED1980057BF76 /* LaunchScreen.storyboard */,
 				276DEA9524EED1980057BF76 /* Info.plist */,
+				276DEABF24EEE3B90057BF76 /* Routes+Points.swift */,
 			);
 			path = CheckPointer;
 			sourceTree = "<group>";
@@ -230,7 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				276DEA9424EED1980057BF76 /* LaunchScreen.storyboard in Resources */,
-				276DEA9124EED1980057BF76 /* Assets.xcassets in Resources */,
+				276DEAB824EEDF930057BF76 /* Assets.xcassets in Resources */,
 				276DEA8F24EED1800057BF76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276DEAC024EEE3B90057BF76 /* Routes+Points.swift in Sources */,
 				276DEA8C24EED1800057BF76 /* ViewController.swift in Sources */,
+				276DEABC24EEE1450057BF76 /* LocationDelegate.swift in Sources */,
 				276DEA8A24EED1800057BF76 /* AppDelegate.swift in Sources */,
+				276DEABA24EEE09B0057BF76 /* UserDefauts+Extensions.swift in Sources */,
+				276DEABE24EEE1A90057BF76 /* CLLocation+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
